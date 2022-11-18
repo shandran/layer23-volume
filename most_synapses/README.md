@@ -23,20 +23,24 @@ View the neuron in [neuroglancer](https://neuromancer-seung-import.appspot.com/#
 Afferent synapses (those coming from other neurons either within or outside of the volume) are shown in <span style="color:red">**red**</span>. Note that these synapses are all located on the dendrites and soma (as expected for post-synaptic sites).  
 Efferent synapses (where neuron is the pre-synaptic cell and making synapses with other cells in the volume) are shown in <span style="color:green">**green**</span>. Note that these are all located (as expected for pre-synaptic sites).
 
-![Synapses on pyramidal neuron 648518346349538440](pyramidal_neuron.png "pyramidal neuron 648518346349538440")  
+![Synapses on pyramidal neuron 648518346349538440](pyramidal_neuron.png "pyramidal neuron 648518346349538440")
+
 
 ## Synapse locations on basket neuron 648518346349539215
 Afferent synapses (post-synaptic) shown in <span style="color:red">**red**</span> and efferent synapses (pre-synaptic) shown in <span style="color:green">**green**</span>.  
 
-![Synapses on basket neuron 648518346349539215](basket_neuron.png "basket neuron 648518346349539215")  
+![Synapses on basket neuron 648518346349539215](basket_neuron.png "basket neuron 648518346349539215")
+
 
 ## The basket neuron makes 8 synaptic contacts on the pyramidal neuron
 However, the pyramidal neuron does not make any connections with the basket neuron in the volume (see notebook for details).  
 
 ![Synaptic connections from basket neuron to pyramidal neuron](pre_to_post_sites.png "synaptic locations from basket neuron")
 
+
 ## 3D visualizer using VTK tool
 See notebook for details.
 
 ![Screenshot from OpenGL interactive 3d visualization tool](vtk_3d_visualization.png "OpenGL 3d visualization tool")
+
 
