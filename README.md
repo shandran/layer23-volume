@@ -13,14 +13,14 @@ For an interesting summary of this revolution, read Mitch Glickstein's essay on 
 ![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")
 
 
-<em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction using Smart Objects in Photoshop.</em>
+<em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction of a Golgi-stained mouse pyramidal neuron using Smart Objects in Photoshop.</em>
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
 
 ![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")
 
 
-<em>Image credit, by author, using Neuroglancer of pyramidal neuron with cellid 648518346349538440.</em> 
+<em>Image credit, by author, reconstruction using Neuroglancer of pyramidal neuron with cellid 648518346349538440 in the Layer 2/3 volume.</em> 
 
 ***
 
@@ -36,6 +36,6 @@ Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic 
 
 ### Visualization and analyses of interesting features
 
-`most_synapses` folder: reconstructions and synaptic analysis of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron with making the most synapses onto other processes within the volume. 
+`most_synapses` folder: reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
-`oligodendrocyte_648518346349508279` folder: a beautiful example of an oligocyte in the layer 2/3 volume. 
+`oligodendrocyte_648518346349508279` folder: a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
