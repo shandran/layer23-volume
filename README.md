@@ -8,14 +8,16 @@ Citation: https://www.microns-explorer.org/citation-policy<br>
 
 ### Over a century ago, Golgi and Cajal revolutionized the field of neuroscience
 
-![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")<br>
-<em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction using Smart Objects in Photoshop.</em>
+For an interesting summary of this revolution, read Mitch Glickstein's essay on Golgi and Cajal in <em>Cell</em>: https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf
 
-For an interesting summary, read Mitch Glickstein's essay on Golgi and Cajal in <em>Cell</em>: https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf
+![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")  
+
+<em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction using Smart Objects in Photoshop.</em>
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
 
-![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")<br>
+![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")  
+
 <em>Image credit, by author, using Neuroglancer of pyramidal neuron with cellid 648518346349538440.</em> 
 
 ***
