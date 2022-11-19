@@ -1,5 +1,5 @@
 # layer23-volume
-*Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume*
+Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume
 
 **Attribution:** https://www.microns-explorer.org/terms-and-conditions<br>
 **Citation:** https://www.microns-explorer.org/citation-policy<br>
@@ -17,7 +17,7 @@ For an interesting summary of this revolution, read Mitch Glickstein's [**essay*
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
 
-Petabytes of data have been generated for small volumes (1 cubic mm or less) of human, mouse, songbird, and fly brain volumes. This gargantuan task has been spearheaded by investigators from a variety of entities, including Allen Institute, Baylor, Google Research, Harvard, IARPA, Janelia/HHMI, Johns Hopkins, Max Planck Institute, Princeton, and the University of Cambridge.  
+Petabytes of data have been generated for small volumes (1 cubic mm or less) of human, mouse, songbird, and fly brain volumes. This gargantuan task has been spearheaded by investigators from a variety of entities, including Allen Institute, Baylor, Google Research, Harvard, IARPA, Janelia/HHMI, Johns Hopkins, Max Planck Institute, Princeton, and the University of Cambridge, among others.  
 
 ![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")
 
@@ -42,3 +42,9 @@ Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic 
 [`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
 [`oligodendrocyte_648518346349508279` folder](https://github.com/shandran/layer23-volume/tree/main/oligodendrocyte_648518346349508279): a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
+
+***
+
+##### Thank you for stopping by and drop me an email if you would have any questions or would like to collaborate.
+
+Shawn
