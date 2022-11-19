@@ -1,14 +1,14 @@
 # layer23-volume
-Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume
+*Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume*
 
-Attribution: https://www.microns-explorer.org/terms-and-conditions<br>
-Citation: https://www.microns-explorer.org/citation-policy<br>
+**Attribution:** https://www.microns-explorer.org/terms-and-conditions<br>
+**Citation:** https://www.microns-explorer.org/citation-policy<br>
 
 ***
 
 ### Over a century ago, Golgi and Cajal revolutionized the field of neuroscience
 
-For an interesting summary of this revolution, read Mitch Glickstein's essay on Golgi and Cajal in <em>Cell</em>: https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf
+For an interesting summary of this revolution, read Mitch Glickstein's [**essay**](https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf) on Golgi and Cajal in <em>Cell</em>.
 
 ![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")
 
@@ -16,6 +16,8 @@ For an interesting summary of this revolution, read Mitch Glickstein's essay on 
 <em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction of a Golgi-stained mouse pyramidal neuron using Smart Objects in Photoshop.</em>
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
+
+Petabytes of data have been generated for small volumes (1 cubic mm or less) of human, mouse, songbird, and fly brain volumes. This gargantuan task has been spearheaded by investigators from a variety of entities, including Allen Institute, Baylor, Google Research, Harvard, IARPA, Janelia/HHMI, Johns Hopkins, Max Planck Institute, Princeton, and the University of Cambridge.  
 
 ![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")
 
@@ -25,6 +27,7 @@ For an interesting summary of this revolution, read Mitch Glickstein's essay on 
 ***
 
 ## Contents
+This github repo focuses on visualization and analyses of the Layer 2/3 EM volume data generated in the IARPA Microns consortium (Allen Institute, Baylor, Princeton). The volume can be viewed in Neuroglancer (developed at Google Research). Allen Institute and the Seung lab at Princeton have posted datasets, resources, analysis tools, and more on their respective github repos, and also at the Allen Brain Map website. 
 
 ### Look up tools
 
@@ -36,6 +39,6 @@ Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic 
 
 ### Visualization and analyses of interesting features
 
-`most_synapses` folder: reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
+[`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
-`oligodendrocyte_648518346349508279` folder: a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
+[`oligodendrocyte_648518346349508279` folder](https://github.com/shandran/layer23-volume/tree/main/oligodendrocyte_648518346349508279): a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
