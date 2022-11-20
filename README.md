@@ -8,12 +8,12 @@ Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume
 
 ### Over a century ago, Golgi and Cajal revolutionized the field of neuroscience
 
-For an interesting summary of this revolution, read Mitch Glickstein's [**essay**](https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf) on Golgi and Cajal in <em>Cell</em>.
+For an intriguing summary of this revolution, read Mitch Glickstein's [**essay**](https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf) on Golgi and Cajal in <em>Cell</em>.
 
 ![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")
 
 
-<em>Image credit: by author, using a Zeiss Photomicroscope II at 40x oil. Reconstruction of a Golgi-stained mouse pyramidal neuron using Smart Objects in Photoshop.</em>
+<em>Image credit: I created this serial LM reconstruction of a Golgi-stained mouse pyramidal neuron using a Zeiss Photomicroscope II at 40x oil and Smart Objects in Photoshop.</em>
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
 
@@ -22,7 +22,7 @@ Petabytes of data have been generated for small volumes (1 cubic mm or less) of 
 ![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")
 
 
-<em>Image credit, by author, reconstruction using Neuroglancer of pyramidal neuron with cellid 648518346349538440 in the Layer 2/3 volume.</em> 
+<em>Image credit, I created this reconstruction using Neuroglancer of pyramidal neuron with cellid 648518346349538440 in the Layer 2/3 volume.</em>  
 
 ***
 
@@ -45,6 +45,7 @@ Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic 
 
 ***
 
-##### Thank you for stopping by and drop me an email if you would have any questions or would like to collaborate.
+##### Thank you for stopping by
 
+Drop me an email if you have any questions or would like to collaborate.
 Shawn
