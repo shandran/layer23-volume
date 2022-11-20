@@ -21,7 +21,7 @@ View the neuron in [neuroglancer](https://neuromancer-seung-import.appspot.com/#
 
 ## Synapse locations on pyramidal neuron 648518346349538440
 Afferent synapses (those coming from other neurons either within or outside of the volume) are shown in <span style="color:red">**red**</span>. Note that these synapses are all located on the dendrites and soma (as expected for post-synaptic sites).  
-Efferent synapses (where neuron is the pre-synaptic cell and making synapses with other cells in the volume) are shown in <span style="color:green">**green**</span>. Note that these are all located (as expected for pre-synaptic sites).
+Efferent synapses (where neuron is the pre-synaptic cell and making synapses with other cells in the volume) are shown in <span style="color:green">**green**</span>. Note that these are all located on the axonal processes (as expected for pre-synaptic sites).
 
 ![Synapses on pyramidal neuron 648518346349538440](pyramidal_neuron.png "pyramidal neuron 648518346349538440")
 
