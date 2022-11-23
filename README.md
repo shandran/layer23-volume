@@ -29,7 +29,7 @@ Petabytes of data have been generated for small volumes (1 cubic mm or less) of 
 ## Contents
 This github repo focuses on visualization and analyses of the Layer 2/3 EM volume data generated in the IARPA Microns consortium (Allen Institute, Baylor, Princeton). The volume can be viewed in Neuroglancer (developed at Google Research). Allen Institute and the Seung lab at Princeton have posted datasets, resources, analysis tools, and more on their respective github repos, and also at the Allen Brain Map website. 
 
-### Look up tools
+### Look up and visualization tools
 
 Use `lookup_cellid_in_layer23_volume.ipynb` to identify the cell subtype for a given cellid in the Layer 2/3 volume. This is a human-curated list for cells that contain all (or most) of the cell soma within the volume.
 
@@ -37,7 +37,11 @@ Use `lookup_mitochondria_ids.ipynb` to look up mitochondria ids by cellid. Usefu
 
 Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic cell ids. Also contains voxel data.
 
-### Visualization and analyses of interesting features
+Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- and post-synaptic sites on a cell of interest.
+
+### Interesting features in the Layer 2/3 volume
+
+[`axon_carrying_dendrite` folder](): a partial neuron (soma is not in the volume) with a possible axon-carrying dendrite.
 
 [`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
