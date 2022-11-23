@@ -41,7 +41,7 @@ Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- a
 
 ### Interesting features in the Layer 2/3 volume
 
-[`axon_carrying_dendrite` folder](): a partial neuron (soma is not in the volume) with a possible axon-carrying dendrite.
+[`axon_carrying_dendrite` folder](https://github.com/shandran/layer23-volume/tree/main/axon_carrying_dendrite): a partial neuron (soma is not in the volume) with a possible axon-carrying dendrite.
 
 [`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 

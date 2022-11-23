@@ -402,8 +402,8 @@ Institute, Baylor, Princeton). The volume can be viewed in Neuroglancer
 Princeton have posted datasets, resources, analysis tools, and more on
 their respective github repos, and also at the Allen Brain Map
 website.</p>
-<div id="look-up-tools" class="section level3">
-<h3>Look up tools</h3>
+<div id="look-up-and-visualization-tools" class="section level3">
+<h3>Look up and visualization tools</h3>
 <p>Use <code>lookup_cellid_in_layer23_volume.ipynb</code> to identify
 the cell subtype for a given cellid in the Layer 2/3 volume. This is a
 human-curated list for cells that contain all (or most) of the cell soma
@@ -413,9 +413,15 @@ mitochondria ids by cellid. Useful for creating a list of mito ids for
 visualization in neuroglancer and for analyzing voxel data.</p>
 <p>Use <code>lookup_synapse_ids.ipynb</code> to look up synapse ids by
 pre- and post-synaptic cell ids. Also contains voxel data.</p>
+<p>Use <code>synapse_visualizer.ipynb</code> to create a 2D and 3D
+visualization of all pre- and post-synaptic sites on a cell of
+interest.</p>
 </div>
-<div id="visualization-and-analyses-of-interesting-features" class="section level3">
-<h3>Visualization and analyses of interesting features</h3>
+<div id="interesting-features-in-the-layer-23-volume" class="section level3">
+<h3>Interesting features in the Layer 2/3 volume</h3>
+<p><a href="https://github.com/shandran/layer23-volume/tree/main/axon_carrying_dendrite"><code>axon_carrying_dendrite</code>
+folder</a>: a partial neuron (soma is not in the volume) with a possible
+axon-carrying dendrite.</p>
 <p><a href="https://github.com/shandran/layer23-volume/tree/main/most_synapses"><code>most_synapses</code>
 folder</a>: reconstructions and synaptic analyses of an excitatory
 pyramidal neuron with the most synapses in the volume, along with an
