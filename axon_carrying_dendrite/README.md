@@ -22,5 +22,5 @@ Review of the raw EM images, the presumptive axonal process is continuous with t
 
 ***
 
-# Wahle et al, ELife 2002
-Axon-carrying dendrites (AcD) are not uncommon in rodents, with estimated 10-21% of pyramidal neurons have AcDs. See their [paper in eLife](https://elifesciences.org/articles/76101) entitle *Neocortical pyramidal neurons with axons emerging from dendrites are frequent in non-primates, but rare in monkey and human*.
+## Wahle et al, ELife 2002
+Axon-carrying dendrites (AcD) are not uncommon in rodents, with estimated 10-21% of pyramidal neurons having AcDs. See their [paper in eLife](https://elifesciences.org/articles/76101) entitle *Neocortical pyramidal neurons with axons emerging from dendrites are frequent in non-primates, but rare in monkey and human*.
