@@ -17,7 +17,7 @@ For an intriguing summary of this revolution, read Mitch Glickstein's [**essay**
 
 ### Once again neuroscience is undergoing another revolution with the serial electron microscope brain reconstructions
 
-Petabytes of data have been generated for small volumes (1 cubic mm or less) of human, mouse, songbird, and fly brain volumes. This gargantuan task has been spearheaded by investigators from a variety of entities, including Allen Institute, Baylor, Google Research, Harvard, IARPA, Janelia/HHMI, Johns Hopkins, Max Planck Institute, Princeton, and the University of Cambridge, among others.  
+Petabytes of data have been generated for small volumes (1 cubic mm or less) of human, mouse, songbird, and fly brain volumes. This gargantuan task has been spearheaded by investigators from a variety of entities, including Allen Institute, Baylor, Columbia, Google Research, Harvard, IARPA, Janelia/HHMI, Johns Hopkins, Max Planck Institute, Princeton, Rice, and the University of Cambridge, among others.  
 
 ![Pyramdial neuron from the Layer 2/3 serial EM volume](img/layer23pyr.png "Serial EM reconstruction using Neuroglancer")
 
