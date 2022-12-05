@@ -41,17 +41,30 @@ Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- a
 
 ### Interesting features in the Layer 2/3 volume
 
+#### Axon-carrying dendrite
 [`axon_carrying_dendrite` folder](https://github.com/shandran/layer23-volume/tree/main/axon_carrying_dendrite): a partial neuron (soma is not in the volume) with a possible axon-carrying dendrite.
 
+![axon-carrying dendrite](axon_carrying_dendrite/axon-carrying-dendrite-synapse_sites.png "axon-carrying dendrite")
+
+#### Mitocondria visualizations
 [`mitochondria` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria): analysis of interesting mitochondrial features in the layer 2/3 volume, including the largest contiguous mitochondrion in an astrocyte, and the largest number of mitochondria by count in an inhibitory basket neuron.
 
+![large contiguous mitochondria in an astrocyte](mitochondria/astrocyte_mitos.png "large contiguous mitochondria in an astrocyte")
+
+#### Two neurons with the most synapses in the Layer 2/3 volume
 [`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
+![neuron with the most synpases in the layer 2/3 volume](most_synapses/pyramidal_neuron.png "neuron with the most synpases in the layer 2/3 volume")
+
+#### An exceptional oligodendrocyte
 [`oligodendrocyte_648518346349508279` folder](https://github.com/shandran/layer23-volume/tree/main/oligodendrocyte_648518346349508279): a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
+
+![oligodendrocyte myelinating a neuronal process](oligodendrocyte_648518346349508279/oligo_neurite_vtk.png "oligodendrocyte myelinating a neuronal process")
+
 
 ***
 
-##### Thank you for stopping by
+##### Thank you for stopping by!
 
 Drop me an email if you have any questions or would like to collaborate.
 Shawn
