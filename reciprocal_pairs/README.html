@@ -366,11 +366,42 @@ another</p>
 </div>
 <div id="summary-presentation" class="section level1">
 <h1>Summary Presentation</h1>
+<div id="view-the-reciprocal-pairs-summary-presentation." class="section level3">
+<h3>View the <a href="https://github.com/shandran/layer23-volume/blob/main/reciprocal_pairs/reciprocal_pairs_summary_presentation.pdf">Reciprocal
+Pairs</a> summary presentation.</h3>
+<hr />
+</div>
 </div>
 <div id="contents" class="section level1">
 <h1>Contents</h1>
-<div id="notebooks" class="section level2">
-<h2>Notebooks</h2>
+<div id="notebooks-and-datatables" class="section level2">
+<h2>Notebooks and datatables</h2>
+<p>Use the <a href><code>list_of_all_reciprocal_pairs.ipynb</code>
+notebook</a> to list and analyze all the reciprocal synapses in the
+volume. A special thank you to <a href="https://github.com/wanwenzeng">Wanwen Zeng</a> at Stanford for
+generating the dictionary code to generate the reciprocal synapse
+list.</p>
+<p>Use the <a href><code>reciprocal_pairs_neurons_with_soma_in_volume.ipynb</code>
+notebook</a> to list and analyze all the reciprocal pairs of neurons
+that have an identified soma within the Layer 2/3 volume.</p>
+<p>Use the <a href><code>reciprocal_pairs_synapse_visualizer.ipynb</code>
+notebook</a> to generate 2D and 3D visualizations (using matplotlib,
+meshparty and vtk) of synapses for a desired set of reciprocal pairs.
+Includes over a dozen example pairs.</p>
+<p>The <a href="https://github.com/shandran/layer23-volume/blob/main/reciprocal_pairs/paired.csv"><code>paired.csv</code>
+datatable</a> contains all the reciprocal pairs (n = 1998/2 = 999) in
+the entire volume, including all the partial processes as well.</p>
+<p>The <a href="https://github.com/shandran/layer23-volume/blob/main/reciprocal_pairs/pairs_rm_v_g_na.csv"><code>pairs_rm_v_g_na.csv</code>
+datatable</a> contains the reciprocal pairs where both pairs have an
+identified soma in the volume, filtering out vascular and glial (because
+these are mis-segmented synapses anyway!), as well as filtering out the
+partial proceses. This was generated using the <a href="https://github.com/shandran/layer23-volume/blob/main/data/220309_cell_type_classification.csv"><code>220309_cell_type_classification.csv</code>
+datatable</a>. <em>Confession: due to my novice pandas skills, I found
+it more expedient to create the datatable in Excel using a simple
+vlookup function.</em></p>
+</div>
+<div id="visualization-examples" class="section level2">
+<h2>Visualization examples</h2>
 </div>
 </div>
 
