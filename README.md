@@ -56,6 +56,14 @@ Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- a
 
 ![neuron with the most synpases in the layer 2/3 volume](most_synapses/pyramidal_neuron.png "neuron with the most synpases in the layer 2/3 volume")
 
+#### Reciprocal pairs
+Pairs of neurons in the Layer 2/3 volume that synapse onto one another
+
+[`reciprocal_pairs` folder](https://github.com/shandran/layer23-volume/tree/main/reciprocal_pairs): Martinotti-bipolar reciprocal pair (cell ids 648518346349538179 and 648518346349515986, respectively).  
+
+![Martinotti-bipolar reciprocal pair](reciprocal_pairs/martinotti_bipolar_reciprocal_pairs.png "Martinotti-bipolar reciprocal pair")
+
+
 #### An exceptional oligodendrocyte
 [`oligodendrocyte_648518346349508279` folder](https://github.com/shandran/layer23-volume/tree/main/oligodendrocyte_648518346349508279): a beautiful example of an oligocyte in the layer 2/3 volume. Images of myelination as well as an example of mis-segmentation where a synaptic bouton from a nearby axon was incorrectly segmented to the oligodendrocyte cell.
 
