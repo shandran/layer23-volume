@@ -46,6 +46,11 @@ Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- a
 
 ![axon-carrying dendrite](axon_carrying_dendrite/axon-carrying-dendrite-synapse_sites.png "axon-carrying dendrite")
 
+### Autapses
+[`autapses` folder](https://github.com/shandran/layer23-volume/tree/main/autapses): there are three autapses in the Layer 2/3 volume and many (24) cases of segmenation errors that are not true autapses.
+
+![inhibitory basket neuron autapse](autapses/autapse_cellid_648518346349528994.png "inhibitory basket neuron autapse") 
+
 ### Mitocondria visualizations
 [`mitochondria` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria): analysis of interesting mitochondrial features in the layer 2/3 volume, including the largest contiguous mitochondrion in an astrocyte, and the largest number of mitochondria by count in an inhibitory basket neuron.
 
