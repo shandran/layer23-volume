@@ -16,7 +16,7 @@ Analysis and visualization of neurons that form a synapse onto itself
 
 [`autapses_rm_nonneuronal.csv` datatable](https://github.com/shandran/layer23-volume/blob/main/autapses/autapses_rm_nonneuronal.csv): a human-curated (by me) data table that removed the vascular and glial cell ids. This resulted in a list of 27 potential neuronal autapses. The electron micrographs for each of these were manually checked in neuroglancer and 3 of the 24 were determined to be true autapses. The remaining 24 were due to segmentation errors or edge artifacts.  
 
-[`` notebook](): analysis and visualization of the three true autapses as well as some example segmentation errors from the `autapses_rm_nonneuronal.csv` datatable.
+[`autapses_layer23_volume.ipynb` notebook](https://github.com/shandran/layer23-volume/blob/main/autapses/autapses_layer23_volume.ipynb): analysis and visualization of the three true autapses as well as some example segmentation errors from the `autapses_rm_nonneuronal.csv` datatable.
 
 ***
 
