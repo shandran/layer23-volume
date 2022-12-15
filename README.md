@@ -1,5 +1,5 @@
 # layer23-volume
-Reconstructions and analyses of mouse cortex Layer 2/3 serial EM volume
+Reconstructions and analyses from the IARPA [MICrONS consortium](https://www.iarpa.gov/research-programs/microns) mouse cortex Layer 2/3 serial EM volume.
 
 **Attribution:** https://www.microns-explorer.org/terms-and-conditions<br>
 **Citation:** https://www.microns-explorer.org/citation-policy<br>
@@ -31,13 +31,15 @@ This github repo focuses on visualization and analyses of the Layer 2/3 EM volum
 
 ## Look up and visualization tools
 
-Use `lookup_cellid_in_layer23_volume.ipynb` to identify the cell subtype for a given cellid in the Layer 2/3 volume. This is a human-curated list for cells that contain all (or most) of the cell soma within the volume.
+Use [`lookup_cellid_in_layer23_volume_neuroglancer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_cellid_in_layer23_volume_neuroglancer.ipynb) to identify the cell subtype for a given cellid in the Layer 2/3 volume. This is a human-curated list for cells that contain all (or most) of the cell soma within the volume. Includes a Neuroglancer link generator.
 
-Use `lookup_mitochondria_ids.ipynb` to look up mitochondria ids by cellid. Useful for creating a list of mito ids for visualization in neuroglancer and for analyzing voxel data.
+Use [`lookup_mitochondria_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_mitochondria_ids.ipynb) to look up mitochondria ids by cellid. Useful for creating a list of mito ids for visualization in neuroglancer and for analyzing voxel data.
 
-Use `lookup_synapse_ids.ipynb` to look up synapse ids by pre- and post-synaptic cell ids. Also contains voxel data.
+Use [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_mitochondria_visualization_version.ipynb) to generator a Neuroglancer link for a single cellid and single mitochondrion from the `pni_mito_cellswskel_v185_fullstats.csv` datatable.
 
-Use `synapse_visualizer.ipynb` to create a 2D and 3D visualization of all pre- and post-synaptic sites on a cell of interest.
+Use [`lookup_synapse_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_synapse_ids.ipynb) to look up synapse ids by pre- and post-synaptic cell ids. Also contains voxel data.
+
+Use [`synapse_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/synapse_visualizer.ipynb) to create a 2D and 3D visualization of all pre- and post-synaptic sites on a cell of interest.
 
 ## Interesting features in the Layer 2/3 volume
 
