@@ -35,7 +35,9 @@ Use [`lookup_cellid_in_layer23_volume_neuroglancer.ipynb`](https://github.com/sh
 
 Use [`lookup_mitochondria_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_mitochondria_ids.ipynb) to look up mitochondria ids by cellid. Useful for creating a list of mito ids for visualization in neuroglancer and for analyzing voxel data.
 
-Use [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_mitochondria_visualization_version.ipynb) to generator a Neuroglancer link for a single cellid and single mitochondrion from the `pni_mito_cellswskel_v185_fullstats.csv` datatable.
+Use [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_mitochondria_visualization_version.ipynb) to generate a Neuroglancer link for a single cellid and single mitochondrion from the `pni_mito_cellswskel_v185_fullstats.csv` datatable.
+
+Use [`neuroglancer_link_generator_all_mitochondria.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_all_mitochondria.ipynb) to generate a Neuroglancer link for all the mitochondria in a single cellid of interest pulling the mito ids from the `211019_mitochondria_info.csv` datatable.
 
 Use [`lookup_synapse_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_synapse_ids.ipynb) to look up synapse ids by pre- and post-synaptic cell ids. Also contains voxel data.
 
