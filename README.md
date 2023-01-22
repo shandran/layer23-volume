@@ -8,7 +8,7 @@ Reconstructions and analyses from the IARPA [MICrONS consortium](https://www.iar
 
 ### Over a century ago, Golgi and Cajal revolutionized the field of neuroscience
 
-For an intriguing summary of this revolution, read Mitch Glickstein's [**essay**](https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf) on Golgi and Cajal in <em>Cell</em>.
+For an intriguing summary of this revolution, read Mitch Glickstein's [**essay**](https://www.cell.com/current-biology/pdf/S0960-9822(06)01203-6.pdf) on Golgi and Cajal in <em>Current Biology</em>.
 
 ![Pyramidal neuron of the mouse cortex stained using the Golgi method](img/golgistain.png "Serial LM reconstruction of Golgi stained neuron")
 
