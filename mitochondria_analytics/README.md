@@ -9,7 +9,7 @@ Visualization and analysis tools for analyzing mitochondria in the Layer 2/3 EM 
 
 ## Visualization tools
 
-### Visualize a single mitochondrion of interest
+### Visualize a single mitochondrion of interest in Neuroglancer
 
 [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_mitochondria_visualization_version.ipynb): generate a Neuroglancer link for a single cellid and single mitochondrion from the `pni_mito_cellswskel_v185_fullstats.csv` datatable. The view will be centered at the centroid of the mitochondrion in the volume.
 
