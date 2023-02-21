@@ -39,7 +39,7 @@ Use [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](htt
 
 Use [`neuroglancer_link_generator_all_mitochondria.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_all_mitochondria.ipynb) to generate a Neuroglancer link for all the mitochondria in a single cellid of interest pulling the mito ids from the `211019_mitochondria_info.csv` datatable.
 
-Use [`vtk_mitochondria_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/vtk_mitochondria_visualizer.ipynb) to generate a 3D interactive view of all mitochondria in a cell of interest. Note this method has significant file download and space requirements compared to using the Neuroglancer viewer.
+Use [`vtk_mitochondria_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/vtk_mitochondria_visualizer.ipynb) to generate a 3D interactive view of all mitochondria in a cell of interest. Note this method has significant file download and space requirements compared to using the Neuroglancer viewer. Use [`vtk_mitochondria_visualizer_with_synapses.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/vtk_mitochondria_visualizer_with_synapses.ipynb) to add the pre- and post-synaptic sites to the visualization as well. 
 
 Use [`lookup_synapse_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_synapse_ids.ipynb) to look up synapse ids by pre- and post-synaptic cell ids. Also contains voxel data.
 
