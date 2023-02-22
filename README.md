@@ -62,6 +62,11 @@ Use [`synapse_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob
 
 ![large contiguous mitochondria in an astrocyte](mitochondria/astrocyte_mitos.png "large contiguous mitochondria in an astrocyte")
 
+### Mitochondria analysis and classification
+[`mitochondria analytics` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics): more in-depth analysis of the structural, spatial, and positional characteristics of mitochondria in the Layer 2/3 volume.
+
+![3D interactive visualization of all mitochondria and synapses in a neuron](mitochondria_analytics/3dvtk_mito_synapses.png "3D interactive visualization of all mitochondria and synapses in a neuron")
+
 ### Two neurons with the most synapses in the Layer 2/3 volume
 [`most_synapses` folder](https://github.com/shandran/layer23-volume/tree/main/most_synapses): reconstructions and synaptic analyses of an excitatory pyramidal neuron with the most synapses in the volume, along with an inhibitory basket neuron making the most synapses onto other processes within the volume. 
 
