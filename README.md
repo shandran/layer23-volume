@@ -33,6 +33,8 @@ This github repo focuses on visualization and analyses of the Layer 2/3 EM volum
 
 Use [`lookup_cellid_in_layer23_volume_neuroglancer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_cellid_in_layer23_volume_neuroglancer.ipynb) to identify the cell subtype for a given cellid in the Layer 2/3 volume. This is a human-curated list for cells that contain all (or most) of the cell soma within the volume. Includes a Neuroglancer link generator. See also a version that adds the Neuroglancer nucleus id (for cells with a nucleus in the volume): [`lookup_cellid_in_layer23_volume_neuroglancer_with_nucleus_id.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_cellid_in_layer23_volume_neuroglancer_with_nucleus_id.ipynb).
 
+Use [`list_of_cell_subtypes_in_layer23_volume.ipynb`](https://github.com/shandran/layer23-volume/blob/main/list_of_cell_subtypes_in_layer23_volume.ipynb) to view the cellids categorized by cell subtype, from a curated list of 619 cellids.
+
 Use [`lookup_mitochondria_ids.ipynb`](https://github.com/shandran/layer23-volume/blob/main/lookup_mitochondria_ids.ipynb) to look up mitochondria ids by cellid. Useful for creating a list of mito ids for visualization in neuroglancer and for analyzing voxel data.
 
 Use [`neuroglancer_link_generator_mitochondria_visualization_version.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/neuroglancer_link_generator_mitochondria_visualization_version.ipynb) to generate a Neuroglancer link for a single cellid and single mitochondrion from the `pni_mito_cellswskel_v185_fullstats.csv` datatable.
