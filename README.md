@@ -47,6 +47,8 @@ Use [`lookup_synapse_ids.ipynb`](https://github.com/shandran/layer23-volume/blob
 
 Use [`synapse_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/synapse_visualizer.ipynb) to create a 2D and 3D visualization of all pre- and post-synaptic sites on a cell of interest.
 
+Use [`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran/layer23-volume/blob/main/vtk_nuclei_visualizer_with_vasculature.ipynb) to create an interactive 3D visualize the cell nuclei in the volume using vtk and OpenGL. Includes a visualization option to include all vasculature in the volume. 
+
 ## Interesting features in the Layer 2/3 volume
 
 ### Axon-carrying dendrite
@@ -87,6 +89,10 @@ Pairs of neurons in the Layer 2/3 volume that synapse onto one another
 
 ![oligodendrocyte myelinating a neuronal process](oligodendrocyte_648518346349508279/oligo_neurite_vtk.png "oligodendrocyte myelinating a neuronal process")
 
+### 3D nuclei visualizer with vasculature
+[`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran/layer23-volume/blob/main/vtk_nuclei_visualizer_with_vasculature.ipynb): notebook to create a 3D visualization of cell nuclei in the Layer 2/3 volume. Uses meshparty, vtk, and OpenGL. Here, nuclei from excitatory neurons is shown in light blue; nuceli from inhibitory neurons in light red, and nuclei from glial cells are shown in olive green. Vasculature in the Layer 2/3 volume is shown in light grey. 
+
+![3D interactive visualization with nuclei colored by cell type and including vasculature](img/vtk_nuclei_visualizer_with_vasculature.png "3D interactive visualization with nuclei colored by cell type and including vasculature")
 
 ***
 
