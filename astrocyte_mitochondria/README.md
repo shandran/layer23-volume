@@ -7,7 +7,7 @@ Visualization and analysis tools for analyzing mitochondria of astrocytes in the
 
 # Summary Presentation
 
-### View the [**Astrocyte Mitochondria**]() summary presentation file, with visualization examples of mitchondria in astrocytes.
+### View the [**Astrocyte Mitochondria**](https://github.com/shandran/layer23-volume/blob/main/astrocyte_mitochondria/astrocyte_mitochondria_visualization_and_analysis_summary_presentation.pdf) summary presentation file, with visualization examples of mitchondria in astrocytes.
 
 ***
 
@@ -25,6 +25,18 @@ Visualization and analysis tools for analyzing mitochondria of astrocytes in the
 
 ## A selection of interesting visualizations
 
+### Astrocyte 648518346349527319
+Neuroglancer visualization of all mitochondria in astrocyte 648518346349527319. This astrocyte contains the largest continuous mitochondria of all cells in the Layer 2/3 volume, in addition to several more very large and interconnected mitochondria.  
 
+![Neuroglancer visualization of all mitochondria in astrocyte 648518346349527319](astrocyte_648518346349527319_mito_all.png "Neuroglancer visualization of all mitochondria in astrocyte 648518346349527319")
+
+3D rendering of the same astrocyte, coloring mitochondria with a voxel size threshold (>2M voxels in blue and <2M voxels in red).  
+
+![3D rending of astrocute 648518346349527319 using meshparty, vtk, and OpenGL](648518346349527319_web.png "3D rending of astrocute 648518346349527319 using meshparty, vtk, and OpenGL")
+
+### Astrocyte mitochondria analytics
+Pareto stripplot of mitochondria voxel size in each astrocyte.
+
+![Pareto stripplot of mitochondria voxel size in each astrocyte](plotly_mitovx_wthreshold.png "Pareto stripplot of mitochondria voxel size in each astrocyte")
 
 ***
