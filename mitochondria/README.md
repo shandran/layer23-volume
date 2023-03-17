@@ -19,7 +19,7 @@ See the Microns explorer page at the [Allen Brain Institute](https://www.microns
 
 # Contents
 
-## Anaconda Notebook files
+## Jupyter Notebook files
 
 The main analysis was conducted using [`mito_voxel_analysis_vasc_removed.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria/mito_voxel_analysis_vasc_removed.ipynb). This notebook removes the vascular cells and all the partial processes from cells where the soma is not located in the volume. The cell subtypes table [`220309_cell_type_classification.csv`](https://github.com/shandran/layer23-volume/blob/main/data/220309_cell_type_classification.csv) was used to provide identifying information for the neuron or glial cell of interest.
 
