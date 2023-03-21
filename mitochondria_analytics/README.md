@@ -53,5 +53,11 @@ Visualization and analysis tools for analyzing mitochondria in the Layer 2/3 EM 
 
 ![3D scatterplot using Plotly for visualizing mitochondria within a 45 degree cone above soma](3dwithincone.png "3D scatterplot using Plotly for visualizing mitochondria within a 45 degree cone above soma")
 
+
+### Nodeplot for mitochondria segmentation node metrics
+Example nodeplot (nodeid vs. nodedist by compartment color) for pyramidal neuron cellid 648518346349537297. This example shows that certain mitochondria where the compartment is unidentified could potentially be inferred from the mitochondria node metrics data. See also [`node_metrics` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics/node_metrics) for additional details.
+
+![matplotlib scatterplot of nodeid vs. nodedist by compartment color from mitochondria segmentation node metrics](nodeplot_37297.png "matplotlib scatterplot of nodeid vs. nodedist by compartment color from mitochondria segmentation node metrics")
+
 ***
 
