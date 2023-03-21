@@ -1,7 +1,7 @@
 # Mitochondria Classifier for Pyramidal Neuron Compartment
 
 # Summary Presentation
-View a [summary presentation](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/classifier/Mitochondria_Classifier_by_Pyramidal_Neuron_Compartment.pdf) using mitochondria spatial metrics and machine learning classifiers to assign by pyramidal neuron compartment. 
+#### View a [summary presentation](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/classifier/Mitochondria_Classifier_by_Pyramidal_Neuron_Compartment.pdf) using mitochondria spatial metrics and machine learning classifiers to assign mitochondria by  compartment in pyramidal neurons. 
 
 # Contents
 
