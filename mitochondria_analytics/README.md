@@ -7,6 +7,18 @@ Visualization and analysis tools for analyzing mitochondria in the Layer 2/3 EM 
 
 # Contents
 
+---
+
+## Folders
+
+[`classifier` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics/classifier): mitochondria classifier using random forests for pyramidal neurons in the Layer 2/3 volume.
+
+[`mito_to_mito_distance_statistics` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics/mito_to_mito_distance_statistics): summary statistics for mitochondria-to-mitochondria (mito centroid-to-mito centroid) used in the classifier analysis.
+
+[`node_metrics` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics/node_metrics): derivation of mitochondria segmentation node metrics ("nodeplots"). 
+
+---
+
 ## Visualization tools
 
 ### Visualize a single mitochondrion of interest in Neuroglancer
