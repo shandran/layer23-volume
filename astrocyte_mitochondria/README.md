@@ -19,6 +19,8 @@ Visualization and analysis tools for analyzing mitochondria of astrocytes in the
 
 [`vtk_astrocyte_mitochondria_visualizer_using_threshold.ipynb`](https://github.com/shandran/layer23-volume/blob/main/astrocyte_mitochondria/vtk_astrocyte_mitochondria_visualizer_using_threshold.ipynb): Uses meshparty, vtk, and OpenGL to create an interactive 3D visualization of astrocyte mitochondria. A threshold variable colors mitochondria by number of voxels (default value used in these visualization was 2 million voxels); mitochondria above the threshold are colored blue and red for mitochondria below the threshold. Includes an option to save a high resolution png file.
 
+[`vtk_astrocyte_mitochondria_visualizer_using_threshold_with_neuroglancer_all_mitos.ipynb` notebook](vtk_astrocyte_mitochondria_visualizer_using_threshold_with_neuroglancer_all_mitos.ipynb): As above, but also adds a neuroglancer link generator and a vtk visualizer that places the center of view on the mitoid centroid of interest.
+
 [`astrocyte_mitochondria/astrocyte_mitochondria_3d_renderings` folder](https://github.com/shandran/layer23-volume/tree/main/astrocyte_mitochondria/astrocyte_mitochondria_3d_renderings): high resolution 3d renderings of 44 identified astrocytes in the Layer 2/3 volume using a coloring threshold of 2M voxels, as described above. See also pdf version: [`astrocyte_mitochondria_3drendings.pdf`](https://github.com/shandran/layer23-volume/blob/main/astrocyte_mitochondria/astrocyte_mitochondria_3drendings.pdf).
 
 ***
