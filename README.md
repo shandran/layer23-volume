@@ -70,6 +70,10 @@ Use [`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran
 
 ![3D rendering of astrocyte mitochondria colored with a voxel size threshold](astrocyte_mitochondria/648518346349527319_web.png "3D rendering of astrocyte mitochondria colored with a voxel size threshold")
 
+[`astrocyte mitochondria inclusions` folder](https://github.com/shandran/layer23-volume/tree/main/astrocyte_mitochondria_inclusions): visualization notebooks for generating electron micrograph (EM) images and high resolution 3D renderings of mitochondria inclusions in astrocytes of the Layer 2/3 volume.
+
+![inclusion in mitochondria 2528399 of astrocyte 648518346349538089 of the Layer 2/3 EM volume](astrocyte_mitochondria_inclusions/cid_648518346349538089_mid_2528399_100dpi_mitoseg_slice_13_512.jpg "inclusion in mitochondria 2528399 of astrocyte 648518346349538089 of the Layer 2/3 EM volume")
+
 ### Mitochondria analysis and classification
 [`mitochondria analytics` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria_analytics): more in-depth analysis of the structural, spatial, and positional characteristics of mitochondria in the Layer 2/3 volume.
 
