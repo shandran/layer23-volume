@@ -47,6 +47,10 @@ Visualization and analysis tools for analyzing mitochondria in the Layer 2/3 EM 
 
 ![3D visualizer of all mitochondria in a cell](3dvtk_mito.png "3D visualizer of all mitochondria in a cell")
 
+[`vtk_pyr_mitochondria_visualizer_bycompartment_with_neuroglancer_all_mitos.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/vtk_pyr_mitochondria_visualizer_bycompartment_with_neuroglancer_all_mitos.ipynb): As above but colors mitochondria by compartment (as reported by Turner et. al., Cell 2022).
+
+![3D visualizer of all mitochondria in a cell, colored by compartment](vtk_mito_by_compartment_648518346349539853.png "3D visualizer of all mitochondria in a cell, colored by compartment")
+
 ### 3D visualizer of all mitochondria and synapses in a cell of interesting using Meshparty, vtk, and OpenGL viewer
 
 [`vtk_mitochondria_visualizer_with_synapses.ipynb`](https://github.com/shandran/layer23-volume/blob/main/mitochondria_analytics/vtk_mitochondria_visualizer_with_synapses.ipynb): generate a 3D interactive view of all mitochondria in a cell of interest along with the pre- and post-syanptic sites. Note this method has significant file download and space requirements compared to using the Neuroglancer viewer.
