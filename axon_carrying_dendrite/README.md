@@ -61,5 +61,21 @@ Neuroglancer view of bipolar neuron with an axon-carrying dendrite.
 
 ***
 
+## Case 4
+
+#### View in [Neuroglancer](https://neuromancer-seung-import.appspot.com/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://gs://microns_public_datasets/pinky100_v0/son_of_alignment_v15_rechunked%22%2C%22type%22:%22image%22%2C%22blend%22:%22default%22%2C%22shaderControls%22:%7B%7D%2C%22name%22:%22EM%22%7D%2C%7B%22source%22:%22precomputed://gs://microns_public_datasets/pinky100_v185/seg%22%2C%22type%22:%22segmentation%22%2C%22selectedAlpha%22:0.51%2C%22segments%22:%5B%22648518346341413916%22%5D%2C%22hiddenSegments%22:%5B%22648518346349489861%22%5D%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22cell_segmentation_v185%22%7D%2C%7B%22source%22:%22precomputed://https://tigerdata.princeton.edu/sseung-archive/pinky100-clefts/mip1_d2_1175k%22%2C%22type%22:%22segmentation%22%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22synapses%22%2C%22visible%22:false%7D%2C%7B%22source%22:%22precomputed://https://tigerdata.princeton.edu/sseung-archive/pinky100-mito/seg_191220%22%2C%22type%22:%22segmentation%22%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22mitochondria%22%2C%22visible%22:false%7D%2C%7B%22source%22:%22precomputed://https://tigerdata.princeton.edu/sseung-archive/pinky100-nuclei/seg%22%2C%22type%22:%22segmentation%22%2C%22skeletonRendering%22:%7B%22mode2d%22:%22lines_and_points%22%2C%22mode3d%22:%22lines%22%7D%2C%22name%22:%22nuclei%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B4%2C4%2C40%5D%2C%22voxelCoordinates%22:%5B105327.859375%2C68014.2734375%2C898.0447387695312%5D%7D%7D%2C%22zoomFactor%22:6.752365272485498%7D%2C%22perspectiveOrientation%22:%5B-0.03442884609103203%2C0.9571404457092285%2C0.025901680812239647%2C0.2864015996456146%5D%2C%22perspectiveZoom%22:24.98165626820747%2C%22showSlices%22:false%2C%22selectedLayer%22:%7B%22layer%22:%22cell_segmentation_v185%22%2C%22visible%22:true%7D%2C%22layout%22:%7B%22type%22:%224panel%22%2C%22orthographicProjection%22:true%7D%7D).
+Dendrite from an excitatory pyramidal neuron (cell body is not within the Layer 2/3 volume) that has an axon-carrying dendrite within the volume.
+
+![3D view of axon-carrying dendrite on cell segment id 648518346341413916](648518346341413916_wsynapses.png "3D view of axon-carrying dendrite on cell segment id 648518346341413916")
+
+***
+
+### Raw Electron Micrographs show it is likely not a segmentation error
+Review of the raw EM images, the presumptive axonal process is continuous with the dendrite and does not appear to be a segmentation error.
+
+![Neuroglancer four-panel view of axon-carrying dendrite for cell segmentation id 648518346341413916 ](648518346341413916_acd.png "Neuroglancer four-panel view of axon-carrying dendrite for cell segmentation id 648518346341413916")
+
+***
+
 ## Wahle et al, ELife 2022
 Axon-carrying dendrites (AcD) are not uncommon in rodents, with estimated 10-21% of pyramidal neurons having AcDs. See their [paper in eLife](https://elifesciences.org/articles/76101) entitled *Neocortical pyramidal neurons with axons emerging from dendrites are frequent in non-primates, but rare in monkey and human* for more details.
