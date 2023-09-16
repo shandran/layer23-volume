@@ -47,6 +47,8 @@ Use [`lookup_synapse_ids.ipynb`](https://github.com/shandran/layer23-volume/blob
 
 Use [`synapse_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob/main/synapse_visualizer.ipynb) to create a 2D and 3D visualization of all pre- and post-synaptic sites on a cell of interest.
 
+[`synapse_visualizer_plotly.ipynb`](https://github.com/shandran/layer23-volume/blob/main/synapse_visualizer_plotly.ipynb) is an updated synapse visualizer with interactive 2d and 3d plotly scatterplots added.
+
 Use [`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran/layer23-volume/blob/main/vtk_nuclei_visualizer_with_vasculature.ipynb) to create an interactive 3D visualize the cell nuclei in the volume using vtk and OpenGL. Includes a visualization option to include all vasculature in the volume. 
 
 ## Interesting features in the Layer 2/3 volume
