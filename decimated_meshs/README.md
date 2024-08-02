@@ -37,6 +37,10 @@ Use [`vtk_decimated_meshes_astro_mitos_with_vasc.ipynb`](https://github.com/shan
 
 ## Visualizations
 
-### An example astrocyte and all of its mitochondria with vasculature
+### Example astrocytes and all of its respective mitochondria with vasculature
 
 ![astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume](astro_648518346349490239_mito_with_vasc_2024_08_02_1025_29.png "astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume")
+
+![astrocyte 648518346342917290 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume](astro_648518346342917290_mito_with_vasc_2024_08_02_1608_07.png "astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume")
+
+![astrocyte 648518346349516953 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume](astro_648518346349516953_mito_with_vasc_2024_08_02_1605_29.png "astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume")
