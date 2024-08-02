@@ -21,7 +21,7 @@ Download the cell type data tables on the [Allen Institute Microns Phase 1](http
 
 Use [`pyvista_decimate_mesh_astro_cell_bodies.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_astro_cell_bodies.ipynb) to decimate the cell body meshes for the 44 identified astrocytes in the Layer 2/3 volume. Default decimation of 95%. This will result in some minor loss of distal leaflets of the astrocyte cell body but over all a good balance of decimation and mesh preseveration. The astrocyte meshes take the longest of any cell type (even more than vascular cells) to decimate. The total time to decimate all 44 astrocytes was 20+ hours on a standard laptop.
 
-Use [`pyvista_decimate_mesh_vasc_cell_bodies.ipynb`]() to decimate the cell body meshes for the vascular cells identified in the Layer 2/3 volume. These take an hour or so to process.
+Use [`pyvista_decimate_mesh_vasc_cell_bodies.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_vasc_cell_bodies.ipynb) to decimate the cell body meshes for the vascular cells identified in the Layer 2/3 volume. These take an hour or so to process.
 
 Use [`decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb) to decimate the mitochondria meshes for the astrocytes identified in the Layer 2/3 volume. This consists of over 41,000 mitochondria meshes, however, the decimation is fast and efficient, taking several minutes (instead of hours) to process.
 
@@ -29,9 +29,9 @@ Use [`decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_proces
 
 Use [`decimated_meshs/vtk_decimated_astro_meshes.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_astro_meshes.ipynb) to visualize the astrocyte cell bodies with the decimated meshes.
 
-Use [`vtk_decimated_meshes_astro_mitos_with_vasc.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_astro_mitos_with_vasc.ipynb) to visualize the astrocyte cell bodies and vascular cells with the decimated meshes.
+Use [`vtk_decimated_meshes_by_celltype.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_by_celltype.ipynb) to visualize the astrocyte cell bodies and vascular cells with the decimated meshes.
 
-Use [`vtk_decimated_meshes_by_celltype.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_by_celltype.ipynb) to visualize the astrocyte cell bodies, all of their respective mitochondria, and the vascular cells with the decimated meshes. Also has options for looking at one astrocyte at a time instead of all astrocytes at once (if you visualize all 41K mito meshes, even with the decimation, it will really bog down a typical laptop).
+Use [`vtk_decimated_meshes_astro_mitos_with_vasc.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_astro_mitos_with_vasc.ipynb)  to visualize the astrocyte cell bodies, all of their respective mitochondria, and the vascular cells with the decimated meshes. Also has options for looking at one astrocyte at a time instead of all astrocytes at once (if you visualize all 41K mito meshes, even with the decimation, it will really bog down a typical laptop).
 
 ***
 
