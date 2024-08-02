@@ -66,6 +66,10 @@ Use [`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran
 ### Mitocondria visualizations
 [`mitochondria` folder](https://github.com/shandran/layer23-volume/tree/main/mitochondria): analysis of interesting mitochondrial features in the layer 2/3 volume, including the largest contiguous mitochondrion in an astrocyte, and the largest number of mitochondria by count in an inhibitory basket neuron.
 
+[`decimated meshes` folder](https://github.com/shandran/layer23-volume/tree/main/decimated_meshs): notebooks and vtk visualizations using pyvista mesh decimation to reduce the size of the cell body and mitochondria mesh files.Modified from Tyler Sloan's() [mesh decimation pipeline](https://github.com/Quorumetrix/Blender_scripts/blob/main/Mesh%20Decimation%20Pipeline.ipynb). 
+
+![All astrocyte mitochondria with vasculature](decimated_meshs/all_astro_mito_with_vasc_2024_08_01_1950_40.png "all astrocyte mitochondria with vasculature")
+
 ![large contiguous mitochondria in an astrocyte](mitochondria/astrocyte_mitos.png "large contiguous mitochondria in an astrocyte")
 
 [`astrocyte mitochondria` folder](https://github.com/shandran/layer23-volume/tree/main/astrocyte_mitochondria): analytical and visualization notebooks and high resolution 3D renderings of astrocyte mitochondria.
