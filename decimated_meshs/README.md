@@ -1,5 +1,5 @@
 # Decimated meshes in the Layer 2/3 Volume
-Using a mesh decimation protocol to significantly reduce mesh sizes of cell body and mitochondria features.
+Notebooks that use a mesh decimation protocol to significantly reduce mesh sizes of cell body and mitochondria features.
 
 A special thanks to Tyler Sloan for his advice and pyvista [code](https://github.com/Quorumetrix/Blender_scripts/blob/main/Mesh%20Decimation%20Pipeline.ipynb) for mesh decimation. See more of Tyler's work at [Quorumetrix Studio](https://www.quorumetrix.com/). I also thank [Forrest Collman](https://alleninstitute.org/person/forrest-collman/) at Allen Institute for his [tutorial notebooks](https://github.com/AllenInstitute/MicronsBinder/tree/master/notebooks) for reading and generating the trimesh objects and setting up the trimesh_vtk visualization tools and animations.
 
