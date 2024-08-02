@@ -23,11 +23,11 @@ Use [`pyvista_decimate_mesh_astro_cell_bodies.ipynb`](https://github.com/shandra
 
 Use [`pyvista_decimate_mesh_vasc_cell_bodies.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_vasc_cell_bodies.ipynb) to decimate the cell body meshes for the vascular cells identified in the Layer 2/3 volume. These take an hour or so to process.
 
-Use [`decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb) to decimate the mitochondria meshes for the astrocytes identified in the Layer 2/3 volume. This consists of over 41,000 mitochondria meshes, however, the decimation is fast and efficient, taking several minutes (instead of hours) to process.
+Use [`pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvist_mesh_decimation_astrocyte_mitochondria_batch_processing.ipynb) to decimate the mitochondria meshes for the astrocytes identified in the Layer 2/3 volume. This consists of over 41,000 mitochondria meshes, however, the decimation is fast and efficient, taking several minutes (instead of hours) to process.
 
 ### vtk visualization notebooks
 
-Use [`decimated_meshs/vtk_decimated_astro_meshes.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_astro_meshes.ipynb) to visualize the astrocyte cell bodies with the decimated meshes.
+Use [`vtk_decimated_astro_meshes.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_astro_meshes.ipynb) to visualize the astrocyte cell bodies with the decimated meshes.
 
 Use [`vtk_decimated_meshes_by_celltype.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_by_celltype.ipynb) to visualize the astrocyte cell bodies and vascular cells with the decimated meshes.
 
