@@ -33,6 +33,8 @@ Use [`vtk_decimated_meshes_by_celltype.ipynb`](https://github.com/shandran/layer
 
 Use [`vtk_decimated_meshes_astro_mitos_with_vasc.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_astro_mitos_with_vasc.ipynb)  to visualize the astrocyte cell bodies, all of their respective mitochondria, and the vascular cells with the decimated meshes. Also has options for looking at one astrocyte at a time instead of all astrocytes at once (if you visualize all 41K mito meshes, even with the decimation, it will really bog down a typical laptop).
 
+Use [`vtk_decimated_meshes_pyr_and_astro_mitos_with_vasc_and_synapses.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_pyr_and_astro_mitos_with_vasc_and_synapses.ipynb) to visualize multiple cells of interest, all their respective mitochondria, with vasculature, and the synapses for a defined neuron of interest. 
+
 ***
 
 ## Visualizations
@@ -44,3 +46,10 @@ Use [`vtk_decimated_meshes_astro_mitos_with_vasc.ipynb`](https://github.com/shan
 ![astrocyte 648518346342917290 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume](astro_648518346342917290_mito_with_vasc_2024_08_02_1608_07.png "astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume")
 
 ![astrocyte 648518346349516953 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume](astro_648518346349516953_mito_with_vasc_2024_08_02_1605_29.png "astrocyte 648518346349490239 and all of its mitochondria located near a blood vessel in the Layer 2/3 volume")
+
+### With synaptic visualization
+
+Visualization of an astrocyte (cell body not visualized), microglia (blue), and pyramidal neuron (orange) with all respective mitochondria shown (astrocyte mitochondria are very light grey), and synapses of the pyramidal neuron (red spheres for post-synaptic sites, and green spheres for pre-synaptic sites). From [`vtk_decimated_meshes_pyr_and_astro_mitos_with_vasc_and_synapses.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/vtk_decimated_meshes_pyr_and_astro_mitos_with_vasc_and_synapses.ipynb).
+
+![astrocyte 648518346349527319, microglia 648518346349530724, and pyramidal neuron 648518346349537426 with mitochondria and synapses](all_cell_mito_with_vasc_syn_2024_08_23_1422_05.png "astrocyte 648518346349527319, microglia 648518346349530724, and pyramidal neuron 648518346349537426 with mitochondria and synapses")
+
