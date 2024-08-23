@@ -51,6 +51,8 @@ Use [`synapse_visualizer.ipynb`](https://github.com/shandran/layer23-volume/blob
 
 Use [`vtk_nuclei_visualizer_with_vasculature.ipynb`](https://github.com/shandran/layer23-volume/blob/main/vtk_nuclei_visualizer_with_vasculature.ipynb) to create an interactive 3D visualize the cell nuclei in the volume using vtk and OpenGL. Includes a visualization option to include all vasculature in the volume. 
 
+Use [`layer23_cell_proximity_calculator.ipynb`](https://github.com/shandran/layer23-volume/blob/main/layer23_cell_proximity_calculator.ipynb) to enter a cell id of interest and make of list of nearest cells, using a simple centroid-to-centroid Euclidean distance calculation.
+
 ## Interesting features in the Layer 2/3 volume
 
 ### Axon-carrying dendrite
