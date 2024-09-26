@@ -19,6 +19,8 @@ Download the cell type data tables on the [Allen Institute Microns Phase 1](http
 
 ### Mesh decimation notebooks
 
+Start with [`pyvista_decimate_mesh_cell_bodies_by_list.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_cell_bodies_by_list.ipynb) to decimate the cell body meshes for any user-entere cell or segment ID in the Layer 2/3 volume. Enter the cellids as a list in the appropriate cell. Default decimation of 95%.
+
 Use [`pyvista_decimate_mesh_astro_cell_bodies.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_astro_cell_bodies.ipynb) to decimate the cell body meshes for the 44 identified astrocytes in the Layer 2/3 volume. Default decimation of 95%. This will result in some minor loss of distal leaflets of the astrocyte cell body but over all a good balance of decimation and mesh preseveration. The astrocyte meshes take the longest of any cell type (even more than vascular cells) to decimate. The total time to decimate all 44 astrocytes was 20+ hours on a standard laptop.
 
 Use [`pyvista_decimate_mesh_vasc_cell_bodies.ipynb`](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/pyvista_decimate_mesh_vasc_cell_bodies.ipynb) to decimate the cell body meshes for the vascular cells identified in the Layer 2/3 volume. These take an hour or so to process.
