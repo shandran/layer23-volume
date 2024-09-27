@@ -13,6 +13,10 @@ This view shows all the mitochondria (over 41K meshes) in all 44 astrocytes iden
 
 # Contents
 
+## Summary Presentation
+
+View a [summary presentation](https://github.com/shandran/layer23-volume/blob/main/decimated_meshs/Decimate_EM_Volume_Mesh_Objects_Summary.pdf) of the process for downloading, decimating, and visualizing the decimated meshes. In addition to the MICrONS Layer 2/3 mouse visual cortex examples, also includes the MICrONS mouse cubic mm (aka minnie) mouse cortex volume, and the Harvard/Google H01 human temporal cortex volume. 
+
 ## Jupyter Notebook files
 
 Download the cell type data tables on the [Allen Institute Microns Phase 1](https://www.microns-explorer.org/phase1) page, and the mitochondria info on [Zenodo](https://zenodo.org/record/5579388/files/211019_mitochondria_info.csv).
